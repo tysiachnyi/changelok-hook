@@ -1,0 +1,11 @@
+{
+  "name": "changelok-hook",
+  "version": "1.0.0",
+  "description": "brrr...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nik Tysiachnyi",
+  "license": "ISC"
+}
