@@ -9,7 +9,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run update-changelog && git add CHANGELOG.md"
+      "pre-push": "git add CHANGELOG.md && npm run update-changelog"
     }
   },
   "author": "Nik Tysiachnyi",
