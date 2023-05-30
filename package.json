@@ -4,8 +4,17 @@
   "description": "brrr...",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-changelog": "node scripts/update-changelog.js"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run update-changelog"
+    }
   },
   "author": "Nik Tysiachnyi",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.3"
+  }
 }
