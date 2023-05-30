@@ -13,4 +13,4 @@ console.log(commitMessage);
 
 const changelogContent = `...updated changelog content...`;
 
-fs.writeFileSync("CHANGELOG.md", changelogContent, { flag: "a" });
+fs.writeFileSync("CHANGELOG.md", commitMessage, { flag: "a" });
