@@ -1,2 +1,2 @@
 asd
-...updated changelog content......updated changelog content...Checking sometest hookChecking some new
+...updated changelog content......updated changelog content...Checking sometest hookChecking some newChecking some new...updated changelog content...
